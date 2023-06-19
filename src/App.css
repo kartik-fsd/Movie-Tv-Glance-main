@@ -1,0 +1,57 @@
+::-webkit-scrollbar {
+    width: 10px;
+    background-color:rgb(45, 59, 59);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #282c34; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #282c34; 
+  }
+
+
+
+* {
+    scroll-behavior: smooth;
+  }
+  
+  .container {  
+    background-color: #39445a;
+    color: white;
+  }
+  
+  .app{
+    min-height: 100vh;
+    background-color: #404756;
+    padding-bottom: 70px;
+
+  }
+
+  @media (max-width: 700px) {
+    .app {
+      padding-top: 70px;
+      padding-top: 0;
+      
+    }
+  }
+
+  .pageTitle {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+    padding: 4px;
+    border-radius: 50px;
+    color: white;
+  }
+  
+  @media (max-width: 1000px) {
+    .pageTitle {
+      font-size: 6.4vw;
+    }
+  }
