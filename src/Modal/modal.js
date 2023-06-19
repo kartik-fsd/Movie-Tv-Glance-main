@@ -119,7 +119,7 @@ export default function TModal(props) {
                     )
                   </span>
                   {content.tagline && (
-                    <i className="tagline" style={{ marginTop: 25 }}>
+                    <i className="tagline" style={{ marginTop: 26 }}>
                       {content.tagline}
                     </i>
                   )}
